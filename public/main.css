@@ -1,0 +1,193 @@
+body {
+  box-sizing: border-box;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+/*.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}*/
+
+.header {
+  padding: 1%;
+  margin-bottom: 80px;
+}
+
+.header .header-navigation {
+  text-align: right;
+}
+
+.header ul {
+  padding: 0;
+  margin: 0;
+}
+
+.header ul li {
+  display: inline-block;
+}
+
+.header ul li a {
+  color: orange;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.header ul li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: orange;
+  transition: width .3s;
+}
+
+.header ul li a:hover::after {
+  width: 100%;
+  /*transition: width .3s;*/
+}
+
+.header ul li a:visited {
+  color: orange;
+}
+
+.header ul li a:hover {
+  color: #bada55;
+}
+
+.header .header-item {
+  cursor: pointer;
+  padding: 0px 10px;
+}
+
+
+// Profile
+.profile {
+}
+
+.profile header {
+  text-align: center;
+}
+
+.profile header h1 {
+  font-size: 38px;
+  margin-bottom: 0;
+}
+
+.profile header h2 {
+  opacity: 0.5;
+  color: #555;
+}
+
+.profile header p {
+  opacity: 0.5;
+  color: #555;
+}
+
+.profile header img {
+  width: 10%;
+  border-radius: 50%;
+  filter: hue-rotate(160deg);
+  transition: .5s;
+}
+
+.profile header img:hover {
+  filter: hue-rotate(220deg);
+}
+
+.profile main {
+  padding: 2% 8%;
+}
+
+.profile footer {
+  text-align: center;
+}
+
+.profile footer .instagram img {
+  width: 140px;
+}
+
+.about {
+  margin-top: 300px;
+}
+
+.instagram {
+
+}
+
+.instagram__photos {
+
+}
+
+.instagram__photos-loader {
+
+}
+
+.hide {
+  display: none;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+/* Styles */
+  .profile header img {
+    width: 20%;
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+/* Styles */
+  .profile header img {
+    width: 12%;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
