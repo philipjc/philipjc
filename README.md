@@ -5,7 +5,7 @@ Professional Software engineer.
 -------------------------------
 
 * 🌍  I'm based in England
-* 🧠  I work in the financial sector as a full-stack engineer, including DevOps and testing architecture
+* 🧠  Software Egineer, Development, Testing, DevOps, Architecture, and Planning.
 * 🧠  I also dabble in Unreal game development using C++
 
 ### Skills
