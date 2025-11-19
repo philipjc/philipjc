@@ -6,8 +6,7 @@ Professional Software engineer.
 
 * 🌍  I'm based in England
 * 🧠  Software Engineer, Development, Testing, DevOps, Architecture, and Planning.
-* 🧠  I also dabble with 2D and Unreal Engine 5, game development using C++
-
+* 🧠  I also dabble with 2d and 3d game development, using JS, C++, and Unreal Engine 5.
 ### Skills
 
 
